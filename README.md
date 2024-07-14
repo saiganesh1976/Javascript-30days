@@ -23,12 +23,12 @@ To get started with the JavaScript 30 Days Challenge, follow these steps:
    - Fork this repository to your GitHub account.
    - Clone the forked repository to your local machine.
      ```bash
-     git clone https://github.com/yourusername/javascript-30days.git
+     git clone https://github.com/saiganesh1976/Javascript-30days
      ```
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd javascript-30days
+   cd Javascript-30days
 
 
 ## Topics
