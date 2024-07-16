@@ -37,6 +37,16 @@ Here is a list of projects for each day:
 
 1. Day 1: Variables and Datatypes
 2. Day 2: Operators
+3. Day 3: Control Statements
+4. Day 4: Loops
+5. Day 5: Functions
+6. Day 6: Arrays
+7. Day 7: Objects
+8. Day 8: ES6+ Features
+9. Day 9: DOM Manipulations
+10. Day 10: Event Handling
+11. Day 11: Promises and Async/Await
+12. Day 12: Error Handling
 
 
 
