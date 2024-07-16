@@ -6,6 +6,19 @@ for (let i = 1; i <= 10; i++) {
     console.log(`5 * ${i} = ` + 5 * i);
 }
 
+console.log("\n");
+
+
+// Nested for Loop
+
+for (let i = 1; i <= 10; i++) {
+    row = " "
+    for (let j = 1; j <= i; j++) {
+        row += "*"
+    }
+    console.log(row);
+}
+
 
 // while
 
@@ -56,6 +69,7 @@ console.log("\n");
 
 
 // Break ---> Loop is Terminated
+
 let array1 = [1, 2, 3, 4, 5, 6];
 
 for (let i = 0; i < array1.length; i++) {
