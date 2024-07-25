@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Handling</title>
+    <style>
+      * {
+        font-family: "poppins";
+      }
+      button {
+        padding: 10px;
+        outline: none;
+        border: 2px solid black;
+        border-radius: 8px;
+        color: white;
+        background-color: olive;
+      }
+    </style>
   </head>
   <body>
     <h1>Event Handling</h1>
@@ -16,7 +29,83 @@
       <button id="btn">Change the Paragraph</button>
     </div>
     <div>
-        <img src="https://picsum.photos/200/300" alt="image" id="img" width="500px" height="500px">
+      <h2>Click Events</h2>
+      <img
+        src="https://picsum.photos/200/300"
+        alt="image"
+        id="img"
+        width="500px"
+        height="500px"
+      />
+      <button class="dbl">Double click to hidden</button>
+      <button class="ck">click to visible</button>
+    </div>
+    <div>
+      <h2>Mouse Events</h2>
+      <p class="changeBg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+        laboriosam necessitatibus perferendis sapiente velit pariatur, quos nam
+        impedit in placeat ipsum ut fugiat adipisci facilis. Praesentium aperiam
+        sapiente fuga illum! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Fuga, quasi est minus eius ratione blanditiis ipsam nostrum ipsa
+        sit asperiores officiis commodi reiciendis sint sequi optio ex? Modi,
+        aliquam quos. Deleniti similique hic doloribus cupiditate libero, fuga
+        quasi dignissimos expedita adipisci illo ut quis dicta, atque deserunt
+        facilis eum? Tempora eveniet magni asperiores exercitationem quo labore.
+        Velit perferendis accusantium reiciendis! Explicabo iusto dolorem illum
+        sed debitis laudantium, fugit molestias consequuntur, quidem, excepturi
+        dolor aliquam omnis. Laborum necessitatibus est animi corporis assumenda
+        laboriosam fugit molestiae adipisci sed, deleniti aperiam nisi
+        similique. Dolor a harum, corporis voluptas quaerat provident, alias
+        porro perferendis quos officiis quod neque excepturi! Recusandae, quod
+        dolorem fuga sit aperiam quas provident maxime labore id iste assumenda?
+        Quasi, officiis? Debitis quo perferendis maxime, corporis modi animi
+        ratione consectetur pariatur repellat aliquam porro ex eveniet iusto,
+        molestiae autem doloribus omnis libero delectus? Iste ipsam odio eaque,
+        laborum modi aspernatur aliquid? Quibusdam excepturi iste enim aliquid,
+        molestiae esse eveniet unde explicabo ipsa! Ipsam laudantium repellat
+        illum, saepe doloremque similique. Labore asperiores illum ipsam nulla
+        ullam molestias commodi repellendus rerum accusantium fugit. Officiis,
+        fugit, aut nam sit unde animi labore iste non nihil, delectus nesciunt
+        tenetur quibusdam cum nostrum! Atque eligendi quaerat, repellat mollitia
+        eaque laboriosam eveniet similique dicta saepe nulla aliquid. Unde,
+        totam, culpa laboriosam mollitia pariatur itaque vero sed voluptates
+        quidem dolores eligendi amet ea expedita magni. Nulla, tenetur iste? Sed
+        ab dolore aliquid quae vitae optio quis mollitia ipsam? Incidunt
+        voluptate, quis nesciunt mollitia ad saepe enim iste quibusdam! Iste
+        corporis voluptatem suscipit temporibus vel iusto eius sunt. Accusamus
+        tempora commodi quod temporibus eveniet expedita deleniti eaque fugiat
+        architecto. Enim, exercitationem nemo. Earum quidem fugiat nostrum
+        cupiditate nemo deleniti, at, dicta debitis maxime ea sapiente suscipit
+        tempora voluptas doloremque qui facilis voluptate omnis fuga mollitia
+        nesciunt eum sequi iure?
+      </p>
+    </div>
+    <div>
+      <h2>Keyboard Events</h2>
+      <label for="input">Enter the Input</label>
+      <input
+        type="text"
+        name="input"
+        id="userInput"
+        placeholder="Enter Something"
+      />
+    </div>
+    <div>
+      <h2>Form Events</h2>
+      <p>
+        <form id="form">
+          <label for="username">Name: </label>
+          <input type="text" name="username" id="name">
+          <br>
+          <br>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email">
+          <br>
+          <br>
+          <button type="button">Submit</button>
+        </form>
+      </p>
     </div>
   </body>
   <script src="./event.js"></script>
