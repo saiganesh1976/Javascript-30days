@@ -47,6 +47,16 @@ Here is a list of projects for each day:
 10. Day 10: Event Handling
 11. Day 11: Promises and Async/Await
 12. Day 12: Error Handling
+13. Day 13: Modules
+14. Day 14: Classes
+15. Day 15: Closures
+16. Day 16: Recursion
+17. Day 17: Data Structures
+18. Day 18: Alogrithms
+19. Day 19: Regular Expressions
+20. Day 20: LocalStrorage and SessionStorage
+
+
 
 
 
