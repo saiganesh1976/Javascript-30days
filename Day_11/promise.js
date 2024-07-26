@@ -19,6 +19,6 @@ promise
     console.log("Hello from Promise");
   })
   .catch((error) => {
-    console.log(error);
+    console.log(error); // Error Handling
     console.log("Hello from rejected");
   });

@@ -9,7 +9,7 @@ async function handlePromise() {
     const json = await response.json();
     console.log(json);
   } catch (error) {
-    console.log(error);
+    console.log(error); // error Handling
   }
 }
 handlePromise();

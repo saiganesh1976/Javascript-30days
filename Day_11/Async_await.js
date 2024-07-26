@@ -21,7 +21,7 @@ async function promiseHandle() {
     console.log(message);
     console.log("Hello from Promise--Async Await");
   } catch (error) {
-    console.log(error);
+    console.log(error); // Error Handling
     console.log("hello from reject");
   }
 }
